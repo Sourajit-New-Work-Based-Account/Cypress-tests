@@ -2,10 +2,7 @@
 describe('Rediff site', () => {
     it('Site visit', () => {    
     cy.visit('http://register.rediff.com/register/register.php?FormName=user_details');
-    /*cy.get('input[type="submit"]').click();      
-    cy.on('window:alert',(txt)=>{
-         expect(txt).to.contains('Your full name cannot be blank.');
-    });*/
+    
 })
     it('fill data',()  => {
 
